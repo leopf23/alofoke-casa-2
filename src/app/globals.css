@@ -12,6 +12,36 @@
   --font-mono: var(--font-geist-mono);
 }
 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+@font-face {
+  font-family: "Posterama";
+  src: url("/fonts/Posterama_2001_W04_Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MonumentExtended";
+  src: url("/fonts/MonumentExtended-Regular.otf") format("opentype");
+  font-weight: 400; /* o el que corresponda */
+  font-style: normal;
+  font-display: swap;
+}
+
+
+}
+
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -23,4 +53,21 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.alofoke-font{
+   font-family: "Posterama", sans-serif;
+}
+
+.monument-font{
+  font-family: "MonumentExtended", sans-serif;
+}
+
+
+
+@font-face {
+  font-family: 'Posterama';
+  src: url('/fonts/fonnts.com-Posterama_2001_W04_Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

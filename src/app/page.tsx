@@ -7,7 +7,7 @@ export default function Home() {
 
     <div>
       <Menu />
-      <div className="justify-items-center items-center gap-16 grid p-8 sm:p-20 pb-20 font-sans">
+      <div className="justify-items-center items-center gap-16 grid pb-20 font-sans">
 
         <main className="flex flex-col items-center sm:items-start row-start-2">
           <Banner />
